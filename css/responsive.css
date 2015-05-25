@@ -1,0 +1,35 @@
+@media(min-width: 1200px) {
+	.navbar-form .input-group>.form-control {
+		width: 370px;	
+	}
+}
+@media(min-width: 980px) and (max-width: 1200px) {
+	.navbar-form .input-group>.form-control {
+		width: 270px;	
+	}
+}
+
+@media(min-width: 768px) and (max-width:979px) {
+	.navbar-form .input-group>.form-control {
+		width: 200px;	
+	}
+}
+
+@media(max-width: 767px) {
+	body { /* Body offset for fixed navbar for mobile devices */
+		padding-top: 140px; 
+	}
+	
+	.navbar .navbar-form {
+        width: 100% /* Full width search box for mobile devices */
+    }
+}
+@media(max-width: 667px) {
+	
+}
+@media(max-width: 480px) {
+	
+}
+@media(max-width: 380px) {
+	
+}
