@@ -14,4 +14,10 @@ $( document ).ready(function() {
     $(".search_field").on("click", function(){
         $(".search_popup").slideToggle();
     })
+    $('.popular_searches li a').on('click', function(){
+        $('.products').css('display','none');
+        $('.categories').css('display','none');
+        $('.products_selected').css('display','block');
+
+    })
 });
