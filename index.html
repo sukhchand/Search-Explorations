@@ -18,11 +18,30 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style type="text/css">
+    tr.active{
+      background:#000;
+      color: #fff;
+    }
+    .container{
+      //height: 500px;
+      overflow: auto;
+      background:grey;
+    }
+    </style>
   </head>
   <body>
  
      <h1>Hello, world!</h1>
-
+     <div ng-controller="search">
+      <input type="text" ng-model="serachTxt" ng-keyup="searchF()" ng-min="2">
+      {{searchRes.data}}
+      <div ng-show="resLen">
+        {{searchRes.data}}
+      </div>
+      <div ng-hide="resLen">No Results found</div>
+     </div>
+    
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/angular.min.js"></script>
     <script src="js/jquery.min.js"></script>
