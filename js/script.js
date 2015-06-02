@@ -5,6 +5,8 @@ app.controller("search", function($scope,searchService) {
 
 	$scope.searchRes = {};
 	$scope.resLen = 0;
+    $scope.quaryLimit = 8;
+    $scope.productLimit = 8;
 	var retFn = function(response){
 		$scope.searchRes = response;
 		$scope.resLen = Object.keys(response.data).length;
@@ -13,16 +15,43 @@ app.controller("search", function($scope,searchService) {
 	$scope.searchF = function(){
 		if($scope.serachTxt.length > 1)
     		searchService.getSearchResult($scope.serachTxt,retFn);
+    	else
+    		$scope.resLen = 0;	
 	};
+    $scope.searchProductByQ = function(cat){
+        alert(cat);
+    };
 });
 
 app.service('searchService',function($http){
 	this.getSearchResult = function(param,success){
 		//$http.get('http://api.backcountry.com/v1/suggestions?q='+param+'&site=bcs')
-		$http.get('http://localhost/Search/search.php?q='+param+'&site=bcs')
+		$http.get('http://localhost/search-explorations/search.php?q='+param+'&site=bcs')
     	.success(success);
 	};	
 });
+
+app.filter('myLimitTo', [function(){
+    return function(obj, limit){
+        if(!obj)
+            return;
+        var keys = (obj.constructor === Array) ? obj : Object.keys(obj);
+        if(keys.length < 1){
+            return [];
+        }
+
+        var ret = new Object,
+        count = 0;
+        angular.forEach(keys, function(key, arrayIndex){
+            if(count >= limit){
+                return false;
+            }
+            ret[key] = obj[key];
+            count++;
+        });
+        return ret;
+    };
+}]);
 
 $( document ).ready(function() {
     $(".dropdown").hover(            
@@ -38,7 +67,7 @@ $( document ).ready(function() {
             });
     $(".popular_searches").outerHeight($(".search_popup").height());
     $(".search_field").on("click", function(){
-        $(".search_popup").slideToggle();
+        //$(".search_popup").slideToggle();
     });
     $('.popular_searches li a').on('click', function(){
         $('.products').css('display','none');

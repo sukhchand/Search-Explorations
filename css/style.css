@@ -112,7 +112,7 @@ select.shop_by_submenu:focus {
 	background-color: #fff;
 	display: inline-block;
 	width: 100%;
-	display: none;
+	/*display: none;*/
 }
 .search_popup:before{
 	content: '';
