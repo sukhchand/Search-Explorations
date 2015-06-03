@@ -69,19 +69,51 @@ $products = [
 		'quaries' => ['men shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
 		 ),
 	array(
+		'name' => 'Red Satin Shoes',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'women shoes',
+		'image' => 'images/1424-Michael-Antonio-Torio-Red-Satin-Shoes-for-Women-2.jpg',
+		'quaries' => ['women shoes','puma shoes', 'shoes', 'branded shoes', 'puma']
+		 ),
+	array(
+		'name' => 'zoom black Shoes',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'women shoes',
+		'image' => 'images/9136_578_zoom.jpg',
+		'quaries' => ['women shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
+		 ),
+	array(
+		'name' => 'luxury heels',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'women shoes',
+		'image' => 'images/luxury-heels-womens-shoes-30092395-800-525.jpg',
+		'quaries' => ['women shoes','puma shoes', 'shoes', 'branded shoes', 'puma']
+		 ),
+	array(
+		'name' => 'Winter-Boots',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'women shoes',
+		'image' => 'images/Winter-Boots-for-Women-2015-3.jpg',
+		'quaries' => ['women shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
+		 ),
+	array(
+		'name' => 'fancy heels',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'women shoes',
+		'image' => 'images/ZPRM172_MAIN_LG.jpg',
+		'quaries' => ['women shoes','puma shoes', 'shoes', 'branded shoes', 'puma']
+		 ),
+	array(
 		'name' => 'AFC Away Replica Shirt',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
 		'image' => 'images/74644908.jpg',
-		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
-		 ),
-	array(
-		'name' => 'AFC T7 Anthem Jacket with Spon',
-		'brands' => 'puma',
-		'price' => 'x.xx',
-		'category' => 'men shirts',
-		'image' => 'images/74658101.jpg',
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		 ),
 	array(
@@ -275,7 +307,7 @@ $products = [
 		'category' => 'women pants',
 		'image' => 'images/womens-the-diva-skinny-khakis-classic-navy.jpg',
 		'quaries' => ['women pants','puma pants', 'pants', 'branded pants', 'puma']
-		),
+		)
 	];
 
 if(isset($_GET['q'])){
