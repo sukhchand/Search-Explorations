@@ -98,8 +98,184 @@ $products = [
 		'category' => 'bags',
 		'image' => 'images/9df78eab33525d08d6e5fb8d27136e95/0/7/07296001a.jpg',
 		'quaries' => ['bags']
-		 )
-];
+		 ),
+	array(
+		'name' => 'Pants',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'women pants',
+		'image' => 'images/31UMfwqKwAL._SL246_SX190_CR0,0,190,246_.jpg',
+		'quaries' => ['women pants','puma pants', 'pants', 'branded pants', 'puma']
+		 ),
+	array(
+		'name' => 'Pants',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'women pants',
+		'image' => 'images/654dccbf84509c19501d0701c0642039.jpg',
+		'quaries' => ['women pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		 ),
+	array(
+		'name' => 'Pants',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'men pants',
+		'image' => 'images/220934_ts.jpg',
+		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		 ),
+	array(
+		'name' => 'Pants',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'women pants',
+		'image' => 'images/1244894_fpx.jpg',
+		'quaries' => ['women pants','puma pants', 'pants', 'branded pants', 'puma']
+		 ),
+	array(
+		'name' => 'Pants',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'men pants',
+		'image' => 'images/apparel-fox-racing-casual-pants-men-denim-baseline-jean-roughed-up-rinse.jpg',
+		'quaries' => ['men pants','puma pants', 'pants', 'branded pants', 'puma']
+		 ),
+	array(
+		'name' => 'Pants',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'men pants',
+		'image' => 'images/carhartt-washed-twill-work-pants-for-men-in-dark-khaki-p-3657w_03-1500.3.jpg',
+		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		 ),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'women shirts',
+		'image' => 'images/DDB3EC92.jpg',
+		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		 ),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'men shirts',
+		'image' => 'images/easybranches-07.jpg',
+		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
+		 ),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'men shirts',
+		'image' => 'images/easybranches-10.jpg',
+		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
+		 ),
+	array(
+		'name' => 'Pants',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'men pants',
+		'image' => 'images/easybranches-10.jpg',
+		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		 ),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'men shirts',
+		'image' => 'images/genesis-blue-men-shirt-8gsh12942.jpg',
+		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
+		 ),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'men shirts',
+		'image' => 'images/i_0___selected.jpg',
+		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		 ),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'women shirts',
+		'image' => 'images/LS6.jpg',
+		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		),
+	array(
+		'name' => 'Pants',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'men pants',
+		'image' => 'images/m-4-agent.jpg',
+		'quaries' => ['men pants','puma pants', 'pants', 'branded pants', 'puma']
+		),
+	array(
+		'name' => 'Pants',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'men pants',
+		'image' => 'images/men_s-solid-black-pants.jpg',
+		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'men shirts',
+		'image' => 'images/Men-s-Shirt.jpg',
+		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
+		),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'men shirts',
+		'image' => 'images/pepe-royal-blue-checkered-men-shirt.jpg',
+		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'men pants',
+		'image' => 'images/pKCP-4704956v275.jpg',
+		'quaries' => ['men pants','puma shirts', 'pants', 'branded pants', 'puma']
+		),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'women shirts',
+		'image' => 'images/sherpa-samaya-shirt-aru-women.jpg',
+		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		),
+	array(
+		'name' => 'Shirt',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'women shirts',
+		'image' => 'images/Valle-Maggia-Grey-Womens-Shirt-For-Work.jpg',
+		'quaries' => ['women shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
+		),
+	array(
+		'name' => 'Pants',
+		'brands' => 'addidas',
+		'price' => 'x.xx',
+		'category' => 'women pants',
+		'image' => 'images/women_cloths-1371557745-66-Grey-Work-Pants.jpg',
+		'quaries' => ['women pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		),
+	array(
+		'name' => 'Pants',
+		'brands' => 'puma',
+		'price' => 'x.xx',
+		'category' => 'women pants',
+		'image' => 'images/womens-the-diva-skinny-khakis-classic-navy.jpg',
+		'quaries' => ['women pants','puma pants', 'pants', 'branded pants', 'puma']
+		),
+	];
 
 if(isset($_GET['q'])){
 	$val = strtolower ($_GET['q']);
