@@ -191,5 +191,5 @@ select.shop_by_submenu:focus {
 	display: none;
 }
 .prod.col-lg-3.ng-scope{
-	height: 360px;
+	min-height: 230px;
 }
