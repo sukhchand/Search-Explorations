@@ -10,7 +10,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'mens shoes',
-		'image' => 'http://ecx.images-amazon.com/images/I/51-fugtyI3L.jpg',
+		'image' => 'images/1.jpg',
 		'quaries' => ['men shoes','puma shoes', 'shoes', 'branded shoes', 'puma']
 		 ),
 	array(
@@ -18,7 +18,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'mens shoes 2',
-		'image' => 'http://ecx.images-amazon.com/images/I/51wROi9qCaL._UL1500_.jpg',
+		'image' => 'images/3.jpg',
 		'quaries' => ['men shoes','puma shoes', 'shoes', 'branded shoes', 'puma']
 		 ),
 	array(
@@ -26,7 +26,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'mens shoes',
-		'image' => 'http://ecx.images-amazon.com/images/I/81FT2du8PHL._UL1500_.jpg',
+		'image' => 'images/4.jpg',
 		'quaries' => ['men shoes','puma shoes', 'shoes', 'branded shoes', 'puma']
 		 ),
 	array(
@@ -34,7 +34,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'mens shoes',
-		'image' => 'http://ecx.images-amazon.com/images/I/81QrG8qHkjL._UL1500_.jpg',
+		'image' => 'images/5.jpg',
 		'quaries' => ['men shoes','puma shoes', 'shoes', 'branded shoes', 'puma']
 		 ),
 	array(
@@ -42,7 +42,7 @@ $products = [
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'mens shoes',
-		'image' => 'https://content.adidas.co.in/static/Product-M20610/Unisex_ORIGINALS_Kids_VULCANIZED_SHOES_LOW_M20610_1.jpg.zoom',
+		'image' => 'images/6.jpg',
 		'quaries' => ['men shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
 		 ),
 	array(
@@ -50,7 +50,7 @@ $products = [
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'mens shoes',
-		'image' => 'https://content.adidas.co.in/static/Product-M25257/Unisex_ORIGINALS_Kids_VULCANIZED_SHOES_MID_M25257_1.jpg.zoom',
+		'image' => 'images/7.jpg',
 		'quaries' => ['men shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
 		 ),
 	array(
@@ -58,7 +58,7 @@ $products = [
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'mens shoes',
-		'image' => 'https://content.adidas.co.in/static/Product-M25261/Unisex_ORIGINALS_Kids_VULCANIZED_SHOES_LOW_M25261_1.jpg.zoom',
+		'image' => 'images/8.jpg',
 		'quaries' => ['men shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
 		 ),
 	array(
@@ -66,7 +66,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'mens shirts',
-		'image' => 'http://in.puma.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74644908.jpg',
+		'image' => 'images/9.jpg',
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		 ),
 	array(
@@ -74,7 +74,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'mens shirts',
-		'image' => 'http://in.puma.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/4/74658101.jpg',
+		'image' => 'images/10.jpg',
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		 ),
 	array(
@@ -82,7 +82,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'bags',
-		'image' => 'http://in.puma.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/7/2/7288101a.jpg',
+		'image' => 'images/11.jpg',
 		'quaries' => ['bags']
 		 ),
 	array(
@@ -90,7 +90,7 @@ $products = [
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'bags',
-		'image' => 'http://in.puma.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/0/7/07296001a.jpg',
+		'image' => 'images/12.jpg',
 		'quaries' => ['bags']
 		 )
 ];
