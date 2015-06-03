@@ -7,25 +7,32 @@
 	.navbar-form .input-group>.form-control {
 		width: 270px;	
 	}
+	.secondary-nav .search_field{
+		width: 89%;
+	}
 }
 
 @media(min-width: 768px) and (max-width:979px) {
 	.navbar-form .input-group>.form-control {
 		width: 200px;	
 	}
+	.secondary-nav .search_field{
+		width: 86%;
+	}
 }
 
-@media(max-width: 767px) {
-	body { /* Body offset for fixed navbar for mobile devices */
-		padding-top: 140px; 
-	}
-	
+@media(max-width: 767px) {	
 	.navbar .navbar-form {
         width: 100% /* Full width search box for mobile devices */
     }
+    .secondary-nav .search_field{
+    	width: 84%;
+    }
 }
 @media(max-width: 667px) {
-	
+	.secondary-nav .search_field{
+		width: 77%;
+	}
 }
 @media(max-width: 480px) {
 	

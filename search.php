@@ -204,12 +204,12 @@ $products = [
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		 ),
 	array(
-		'name' => 'Occassions men Pants',
+		'name' => 'Occassions men Shirt',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
-		'category' => 'men pants',
+		'category' => 'men shirts',
 		'image' => 'images/easybranches-10.jpg',
-		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
 		 ),
 	array(
 		'name' => 'fetival men Shirt',
