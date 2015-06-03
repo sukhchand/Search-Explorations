@@ -100,7 +100,7 @@ $products = [
 		'quaries' => ['bags']
 		 ),
 	array(
-		'name' => 'Pants',
+		'name' => 'puma women Pants',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'women pants',
@@ -108,7 +108,7 @@ $products = [
 		'quaries' => ['women pants','puma pants', 'pants', 'branded pants', 'puma']
 		 ),
 	array(
-		'name' => 'Pants',
+		'name' => 'xxx Pants',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'women pants',
@@ -116,7 +116,7 @@ $products = [
 		'quaries' => ['women pants','addidas pants', 'pants', 'branded pants', 'addidas']
 		 ),
 	array(
-		'name' => 'Pants',
+		'name' => 'awesome men Pants',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'men pants',
@@ -124,7 +124,7 @@ $products = [
 		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
 		 ),
 	array(
-		'name' => 'Pants',
+		'name' => 'faded women Pants',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'women pants',
@@ -132,7 +132,7 @@ $products = [
 		'quaries' => ['women pants','puma pants', 'pants', 'branded pants', 'puma']
 		 ),
 	array(
-		'name' => 'Pants',
+		'name' => 'faded Pants',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men pants',
@@ -140,7 +140,7 @@ $products = [
 		'quaries' => ['men pants','puma pants', 'pants', 'branded pants', 'puma']
 		 ),
 	array(
-		'name' => 'Pants',
+		'name' => 'casual men Pants',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'men pants',
@@ -148,7 +148,7 @@ $products = [
 		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
 		 ),
 	array(
-		'name' => 'Shirt',
+		'name' => 'party women Shirt',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'women shirts',
@@ -156,7 +156,7 @@ $products = [
 		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
 		 ),
 	array(
-		'name' => 'Shirt',
+		'name' => 'formal men Shirt',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
@@ -164,7 +164,7 @@ $products = [
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		 ),
 	array(
-		'name' => 'Shirt',
+		'name' => 'partywear Shirt',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
@@ -172,7 +172,7 @@ $products = [
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		 ),
 	array(
-		'name' => 'Pants',
+		'name' => 'Occassions men Pants',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'men pants',
@@ -180,7 +180,7 @@ $products = [
 		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
 		 ),
 	array(
-		'name' => 'Shirt',
+		'name' => 'fetival men Shirt',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
@@ -188,7 +188,7 @@ $products = [
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		 ),
 	array(
-		'name' => 'Shirt',
+		'name' => 'sports men Shirt',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
@@ -196,7 +196,7 @@ $products = [
 		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
 		 ),
 	array(
-		'name' => 'Shirt',
+		'name' => 'sports women Shirt',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'women shirts',
@@ -204,7 +204,7 @@ $products = [
 		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
 		),
 	array(
-		'name' => 'Pants',
+		'name' => 'track men Pants',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men pants',
@@ -212,7 +212,7 @@ $products = [
 		'quaries' => ['men pants','puma pants', 'pants', 'branded pants', 'puma']
 		),
 	array(
-		'name' => 'Pants',
+		'name' => 'stripped men Pants',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'men pants',
@@ -220,7 +220,7 @@ $products = [
 		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
 		),
 	array(
-		'name' => 'Shirt',
+		'name' => 'puma men Shirt',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
@@ -228,7 +228,7 @@ $products = [
 		'quaries' => ['men shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		),
 	array(
-		'name' => 'Shirt',
+		'name' => 'royal blue Shirt',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
@@ -236,7 +236,7 @@ $products = [
 		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
 		),
 	array(
-		'name' => 'Shirt',
+		'name' => 'men-s-Shirt',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'men pants',
@@ -244,7 +244,7 @@ $products = [
 		'quaries' => ['men pants','puma shirts', 'pants', 'branded pants', 'puma']
 		),
 	array(
-		'name' => 'Shirt',
+		'name' => 'sherpa samaya shirt',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'women shirts',
@@ -252,7 +252,7 @@ $products = [
 		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
 		),
 	array(
-		'name' => 'Shirt',
+		'name' => 'Valle Maggia Grey Womens Shirt For Work',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'women shirts',
@@ -260,7 +260,7 @@ $products = [
 		'quaries' => ['women shirts','puma shirts', 'shirts', 'branded shirts', 'puma']
 		),
 	array(
-		'name' => 'Pants',
+		'name' => 'Grey Work Pants',
 		'brands' => 'addidas',
 		'price' => 'x.xx',
 		'category' => 'women pants',
@@ -268,7 +268,7 @@ $products = [
 		'quaries' => ['women pants','addidas pants', 'pants', 'branded pants', 'addidas']
 		),
 	array(
-		'name' => 'Pants',
+		'name' => 'skinny khakis classic navy',
 		'brands' => 'puma',
 		'price' => 'x.xx',
 		'category' => 'women pants',
