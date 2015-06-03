@@ -191,5 +191,11 @@ select.shop_by_submenu:focus {
 	display: none;
 }
 .prod.col-lg-3.ng-scope{
-	height: 360px;
+	/*height: 360px;*/
+}
+.prod:nth-child(4n+1) {
+    clear: both;
+}
+.block{
+	display: block;
 }

@@ -133,10 +133,16 @@
     <div class="col-lg-6 col-md-6 col-sm-6 products">
       <h4>PRODUCTS <span>{{searchRes.data.products.length}} results found</span></h4>
       <div class="products_div">
-        <div class="prod col-lg-3 col-md-3 col-sm-6" ng-repeat="item in searchRes.data.products | limitTo: productLimit">
+        <!-- <div class="prod col-lg-3 col-md-3 col-sm-6" ng-repeat="item in searchRes.data.products | limitTo: productLimit">
           <a href="#"><img ng-src="{{item.image}}" class="img-responsive"></a>
           <span>{{item.name}}</span>
-        </div>
+        </div> -->
+        <span class="block" ng-repeat="item in searchRes.data.products | myLimitTo : 2">
+          <div class="prod col-lg-3 col-md-3 col-sm-6" ng-repeat="childItm in item | limitTo: productLimit">
+            <a href="#"><img ng-src="{{childItm.image}}" class="img-responsive"></a>
+            <span>{{childItm.name}}</span>
+          </div>
+          </span>
       </div>
       <p><a href="#">VIEW ALL PRODUCTS</a></p>
     </div>

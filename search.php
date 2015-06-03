@@ -1,5 +1,6 @@
 <?php
 
+error_reporting(0);
 
 $resArray['status'] = "ok";
 $resArray['data'] = array('quaries'=>'');
@@ -239,7 +240,7 @@ $products = [
 		'name' => 'men-s-Shirt',
 		'brands' => 'puma',
 		'price' => 'x.xx',
-		'category' => 'men pants',
+		'category' => 'men shirts',
 		'image' => 'images/pKCP-4704956v275.jpg',
 		'quaries' => ['men pants','puma shirts', 'pants', 'branded pants', 'puma']
 		),
@@ -281,7 +282,8 @@ if(isset($_GET['q'])){
 	$val = strtolower ($_GET['q']);
 	foreach ($products as $key => $value) {
        if ( strpos(strtolower ($value['name']) , $val) !== false || strpos(strtolower ($value['brands']) , $val) !== false || strpos(strtolower ($value['category']) , $val) !== false) {
-           $resArray['data']['products'][] = $products[$key];
+           //$resArray['data']['products'][] = $products[$key];
+       	   $resArray['data']['products'][$products[$key]['category']][] = $products[$key];
            $resArray['data']['categories'][] = $products[$key]['category'];
            //$resArray['data']['news'][] = $products[$key]['news'];
            $resArray['data']['brands'][] = $products[$key]['brands'];

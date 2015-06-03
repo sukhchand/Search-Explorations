@@ -1,15 +1,22 @@
 var app = angular.module("serachPOC", []);
 
-
 app.controller("search", function($scope,searchService) {
 
 	$scope.searchRes = {};
 	$scope.resLen = 0;
+    $scope.productsResLen = 0;
     $scope.quaryLimit = 8;
-    $scope.productLimit = 8;
+    $scope.productLimit = 4;
+    // $scope.$watch($scope.productsResLen, function(){
+    //     $scope.productLimit = $scope.productsResLen == 1 ? 8 : 4;
+    // });
 	var retFn = function(response){
 		$scope.searchRes = response;
 		$scope.resLen = Object.keys(response.data).length;
+        //console.log($scope.resLen.products, response.data.products);
+        $scope.productsResLen = Object.keys(response.data.products).length;
+        $scope.productLimit = (Object.keys(response.data.products).length == 1) ? 8 : 4;
+        console.log((Object.keys(response.data.products).length == 1) ? 8 : 4);
 	}
 
 	$scope.searchF = function(){
