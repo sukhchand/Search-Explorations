@@ -106,7 +106,7 @@
                   <li><a href="#">One more separated link</a></li>
                 </ul>
             </li>
-            <li class="col-lg-2 user_account_div">
+            <li class="col-lg-2 col-md-2 col-sm-2 user_account_div">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hi, Julia Sosa <span class="caret"></span></a>
                 <ul class="dropdown-menu user_account_submenu" role="menu">
                   <li><a href="#">Action</a></li>
@@ -122,7 +122,7 @@
       </nav>
   </div>
   <div class="search_popup" ng-show="resLen">
-    <div class="col-lg-3 popular_searches">
+    <div class="col-lg-3 col-md-3 col-sm-3 popular_searches">
       <h4>POPULAR SEARCHES</h4>
       <ul>
         <li ng-repeat="cat in searchRes.data.quaries | myLimitTo : quaryLimit">
@@ -130,55 +130,55 @@
         </li>
       </ul>
     </div>
-    <div class="col-lg-6 products">
+    <div class="col-lg-6 col-md-6 col-sm-6 products">
       <h4>PRODUCTS <span>{{searchRes.data.products.length}} results found</span></h4>
       <div class="products_div">
-        <div class="prod col-lg-3" ng-repeat="item in searchRes.data.products | limitTo: productLimit">
+        <div class="prod col-lg-3 col-md-3 col-sm-6" ng-repeat="item in searchRes.data.products | limitTo: productLimit">
           <a href="#"><img ng-src="{{item.image}}" class="img-responsive"></a>
           <span>{{item.name}}</span>
         </div>
       </div>
       <p><a href="#">VIEW ALL PRODUCTS</a></p>
     </div>
-    <div class="col-lg-9 products_selected">
+    <div class="col-lg-9 col-md-9 col-sm-9 products_selected">
       <h4>PRODUCTS <span>2440 results found</span></h4>
       <div class="products_div">
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
-        <div class="prod col-lg-3">
+        <div class="prod col-lg-3 col-md-3 col-sm-3">
           <a href="#"><img src="images/product.png" class="img-responsive"></a>
           <span>Old Skool Core Classic Shoe</span>
         </div>
       </div>
       <p><a href="#">VIEW ALL PRODUCTS</a></p>
     </div>
-    <div class="col-lg-3 categories">
+    <div class="col-lg-3 col-md-3 col-sm-3 categories">
       <div ng-show="(searchRes.data.categories)">
         <h4>CATEGORIES</h4>
         <ul>
