@@ -7,6 +7,9 @@ app.controller("search", function($scope,searchService) {
     $scope.productsResLen = 0;
     $scope.quaryLimit = 8;
     $scope.productLimit = 4;
+    $scope.brandLen = 0;
+    $scope.catLen = 0;
+    $scope.quaryLen = 0;
     // $scope.$watch($scope.productsResLen, function(){
     //     $scope.productLimit = $scope.productsResLen == 1 ? 8 : 4;
     // });
@@ -14,9 +17,13 @@ app.controller("search", function($scope,searchService) {
 		$scope.searchRes = response;
 		$scope.resLen = Object.keys(response.data).length;
         //console.log($scope.resLen.products, response.data.products);
-        $scope.productsResLen = Object.keys(response.data.products).length;
-        $scope.productLimit = (Object.keys(response.data.products).length == 1) ? 8 : 4;
-        console.log((Object.keys(response.data.products).length == 1) ? 8 : 4);
+        $scope.productsResLen = response.data.products != null ? Object.keys(response.data.products).length : 0;
+        console.log($scope.productsResLen);
+        $scope.productLimit = response.data.products != null ? ((Object.keys(response.data.products).length == 1) ? 8 : 4) : 0 ;
+        //console.log((Object.keys(response.data.products).length == 1) ? 8 : 4);
+        $scope.brandLen = response.data.brands != null ? Object.keys(response.data.brands).length : 0;
+        $scope.catLen = response.data.categories != null ? Object.keys(response.data.categories).length : 0;
+        $scope.quaryLen = response.data.quaries != null ? Object.keys(response.data.quaries).length : 0;
 	}
 
 	$scope.searchF = function(){
@@ -33,7 +40,7 @@ app.controller("search", function($scope,searchService) {
 app.service('searchService',function($http){
 	this.getSearchResult = function(param,success){
 		//$http.get('http://api.backcountry.com/v1/suggestions?q='+param+'&site=bcs')
-		$http.get('http://localhost/search-explorations/search.php?q='+param+'&site=bcs')
+		$http.get('http://192.168.100.18/search-explorations/search.php?q='+param+'&site=bcs')
     	.success(success);
 	};	
 });

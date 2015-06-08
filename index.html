@@ -121,14 +121,15 @@
         </ul>
       </nav>
   </div>
-  <div class="search_popup" ng-show="resLen">
+  <div class="search_popup" ng-show="resLen && productsResLen">
     <div class="col-lg-3 col-md-3 col-sm-3 popular_searches">
       <h4>POPULAR SEARCHES</h4>
-      <ul>
+      <ul ng-show="quaryLen">
         <li ng-repeat="cat in searchRes.data.quaries | myLimitTo : quaryLimit">
           <a href="#" ng-click="searchProductByQ(cat)">{{cat}}<span class="glyphicon glyphicon-menu-right pull-right" aria-hidden="true"></span></a>
         </li>
       </ul>
+      <div ng-hide="quaryLen">No results found</div>
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 products">
       <h4>PRODUCTS <span>{{searchRes.data.products.length}} results found</span></h4>
@@ -185,13 +186,13 @@
       <p><a href="#">VIEW ALL PRODUCTS</a></p>
     </div>
     <div class="col-lg-3 col-md-3 col-sm-3 categories">
-      <div ng-show="(searchRes.data.categories)">
+      <div ng-show="(catLen > 1)">
         <h4>CATEGORIES</h4>
         <ul>
           <li ng-repeat="cat in searchRes.data.categories"><a href="">{{cat | uppercase }}</a></li>
         </ul>
       </div>
-      <div ng-show="(searchRes.data.brands)">
+      <div ng-show="(brandLen > 1)">
         <h4>BRANDS</h4>
         <ul>
           <li ng-repeat="brand in searchRes.data.brands"><a href="">{{brand | uppercase }}</a></li>
