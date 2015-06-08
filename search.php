@@ -46,27 +46,27 @@ $products = [
 		 ),
 	array(
 		'name' => 'UNISEX ORIGINALS KIDS VULCANIZED SHOES',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men shoes',
 		'image' => 'images/Unisex_ORIGINALS_Kids_VULCANIZED_SHOES_LOW_M20610_1.jpg',
-		'quaries' => ['men shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
+		'quaries' => ['men shoes','adidas shoes', 'shoes', 'branded shoes', 'adidas']
 		 ),
 	array(
 		'name' => 'UNISEX ORIGINALS KIDS VULCANIZED SHOES',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men shoes',
 		'image' => 'images/Unisex_ORIGINALS_Kids_VULCANIZED_SHOES_MID_M25257_1.jpg',
-		'quaries' => ['men shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
+		'quaries' => ['men shoes','adidas shoes', 'shoes', 'branded shoes', 'adidas']
 		 ),
 	array(
 		'name' => 'UNISEX ORIGINALS KIDS VULCANIZED SHOES',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men shoes',
 		'image' => 'images/Unisex_ORIGINALS_Kids_VULCANIZED_SHOES_LOW_M25261_1.jpg',
-		'quaries' => ['men shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
+		'quaries' => ['men shoes','adidas shoes', 'shoes', 'branded shoes', 'adidas']
 		 ),
 	array(
 		'name' => 'Red Satin Shoes',
@@ -78,11 +78,11 @@ $products = [
 		 ),
 	array(
 		'name' => 'zoom black Shoes',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'women shoes',
 		'image' => 'images/9136_578_zoom.jpg',
-		'quaries' => ['women shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
+		'quaries' => ['women shoes','adidas shoes', 'shoes', 'branded shoes', 'adidas']
 		 ),
 	array(
 		'name' => 'luxury heels',
@@ -94,11 +94,11 @@ $products = [
 		 ),
 	array(
 		'name' => 'Winter-Boots',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'women shoes',
 		'image' => 'images/Winter-Boots-for-Women-2015-3.jpg',
-		'quaries' => ['women shoes','addidas shoes', 'shoes', 'branded shoes', 'addidas']
+		'quaries' => ['women shoes','adidas shoes', 'shoes', 'branded shoes', 'adidas']
 		 ),
 	array(
 		'name' => 'fancy heels',
@@ -142,19 +142,19 @@ $products = [
 		 ),
 	array(
 		'name' => 'xxx Pants',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'women pants',
 		'image' => 'images/654dccbf84509c19501d0701c0642039.jpg',
-		'quaries' => ['women pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		'quaries' => ['women pants','adidas pants', 'pants', 'branded pants', 'adidas']
 		 ),
 	array(
 		'name' => 'awesome men Pants',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men pants',
 		'image' => 'images/220934_ts.jpg',
-		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		'quaries' => ['men pants','adidas pants', 'pants', 'branded pants', 'adidas']
 		 ),
 	array(
 		'name' => 'faded women Pants',
@@ -174,19 +174,19 @@ $products = [
 		 ),
 	array(
 		'name' => 'casual men Pants',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men pants',
 		'image' => 'images/carhartt-washed-twill-work-pants-for-men-in-dark-khaki-p-3657w_03-1500.3.jpg',
-		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		'quaries' => ['men pants','adidas pants', 'pants', 'branded pants', 'adidas']
 		 ),
 	array(
 		'name' => 'party women Shirt',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'women shirts',
 		'image' => 'images/DDB3EC92.jpg',
-		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		'quaries' => ['women shirts','adidas shirts', 'shirts', 'branded shirts', 'adidas']
 		 ),
 	array(
 		'name' => 'formal men Shirt',
@@ -206,11 +206,11 @@ $products = [
 		 ),
 	array(
 		'name' => 'Occassions men Shirt',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
 		'image' => 'images/easybranches-10.jpg',
-		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		'quaries' => ['men shirts','adidas shirts', 'shirts', 'branded shirts', 'adidas']
 		 ),
 	array(
 		'name' => 'fetival men Shirt',
@@ -222,19 +222,19 @@ $products = [
 		 ),
 	array(
 		'name' => 'sports men Shirt',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
 		'image' => 'images/i_0___selected.jpg',
-		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		'quaries' => ['men shirts','adidas shirts', 'shirts', 'branded shirts', 'adidas']
 		 ),
 	array(
 		'name' => 'sports women Shirt',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'women shirts',
 		'image' => 'images/LS6.jpg',
-		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		'quaries' => ['women shirts','adidas shirts', 'shirts', 'branded shirts', 'adidas']
 		),
 	array(
 		'name' => 'track men Pants',
@@ -246,11 +246,11 @@ $products = [
 		),
 	array(
 		'name' => 'stripped men Pants',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men pants',
 		'image' => 'images/men_s-solid-black-pants.jpg',
-		'quaries' => ['men pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		'quaries' => ['men pants','adidas pants', 'pants', 'branded pants', 'adidas']
 		),
 	array(
 		'name' => 'puma men Shirt',
@@ -262,11 +262,11 @@ $products = [
 		),
 	array(
 		'name' => 'royal blue Shirt',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'men shirts',
 		'image' => 'images/pepe-royal-blue-checkered-men-shirt.jpg',
-		'quaries' => ['men shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		'quaries' => ['men shirts','adidas shirts', 'shirts', 'branded shirts', 'adidas']
 		),
 	array(
 		'name' => 'men-s-Shirt',
@@ -278,11 +278,11 @@ $products = [
 		),
 	array(
 		'name' => 'sherpa samaya shirt',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'women shirts',
 		'image' => 'images/sherpa-samaya-shirt-aru-women.jpg',
-		'quaries' => ['women shirts','addidas shirts', 'shirts', 'branded shirts', 'addidas']
+		'quaries' => ['women shirts','adidas shirts', 'shirts', 'branded shirts', 'adidas']
 		),
 	array(
 		'name' => 'Valle Maggia Grey Womens Shirt For Work',
@@ -294,11 +294,11 @@ $products = [
 		),
 	array(
 		'name' => 'Grey Work Pants',
-		'brands' => 'addidas',
+		'brands' => 'adidas',
 		'price' => 'x.xx',
 		'category' => 'women pants',
 		'image' => 'images/women_cloths-1371557745-66-Grey-Work-Pants.jpg',
-		'quaries' => ['women pants','addidas pants', 'pants', 'branded pants', 'addidas']
+		'quaries' => ['women pants','adidas pants', 'pants', 'branded pants', 'adidas']
 		),
 	array(
 		'name' => 'skinny khakis classic navy',
