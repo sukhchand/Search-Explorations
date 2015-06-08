@@ -181,7 +181,7 @@ select.shop_by_submenu {
 	display: block;
 }
 .products_div{
-	margin: 40px 0;
+	/*//margin: 40px 0;*/
 	display: inline-block;
 }
 .prod span{

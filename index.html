@@ -136,8 +136,10 @@
     </div>
     <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 products">
       <h4>PRODUCTS <span>{{searchRes.data.products.length}} results found</span></h4>
-      <div class="products_div">
-        <div class="prod col-lg-3 col-md-3 col-sm-6 col-xs-6" ng-repeat="item in searchRes.data.products | limitTo: productLimit">
+      <div class="products_div" ng-repeat="sItem in searchRes.data.products | myLimitTo: 2">
+       <!--  {{sItem}} -->
+        <div class="prod col-lg-3 col-md-3 col-sm-6 col-xs-6" ng-repeat="item in sItem | limitTo : productLimit">
+        <!-- {{item}} -->
           <a href="#"><img ng-src="{{item.image}}" class="img-responsive"></a>
           <span>{{item.name}}</span>
         </div>
@@ -183,9 +185,8 @@
       <p><a href="#">VIEW ALL PRODUCTS</a></p>
     </div> -->
     <div class="categories">
-      <div ng-show="(catLen > 1)">
     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 categories">
-      <div ng-show="(searchRes.data.categories)">
+      <div ng-show="(catLen > 1)">
         <h4>CATEGORIES</h4>
         <ul>
           <li ng-repeat="cat in searchRes.data.categories"><a href="">{{cat | uppercase }}</a></li>
