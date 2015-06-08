@@ -178,6 +178,7 @@ select.shop_by_submenu {
 }
 .products p a{
 	color: #000;
+	display: block;
 }
 .products_div{
 	margin: 40px 0;
