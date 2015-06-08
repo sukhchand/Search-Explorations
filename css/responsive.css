@@ -37,12 +37,15 @@
     	margin-left: 15px;
     }
     .prod{
-    	height: 220px;
+    	/*height: 220px;*/
     }
     .prod img{
     	width: 80%;
     }
-    .popular_searches{
+    .popular_searches1{
+    	display: none;
+    }
+    .categories{
     	display: none;
     }
 }

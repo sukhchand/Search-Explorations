@@ -125,7 +125,7 @@
   <div class="search_popup" ng-show="resLen && productsResLen">
     <div class="popular_searches">
   <div class="search_popup" ng-show="resLen">
-    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 popular_searches">
+    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 popular_searches1">
       <h4>POPULAR SEARCHES</h4>
       <ul ng-show="quaryLen">
         <li ng-repeat="cat in searchRes.data.quaries | myLimitTo : quaryLimit">
@@ -134,11 +134,11 @@
       </ul>
       <div ng-hide="quaryLen">No results found</div>
     </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 products">
+    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 products">
       <h4>PRODUCTS <span>{{searchRes.data.products.length}} results found</span></h4>
       <div class="products_div" ng-repeat="sItem in searchRes.data.products | myLimitTo: 2">
        <!--  {{sItem}} -->
-        <div class="prod col-lg-3 col-md-3 col-sm-3 col-xs-6" ng-repeat="item in sItem | limitTo : productLimit">
+        <div class="prod col-lg-3 col-md-3 col-sm-3 col-xs-3" ng-repeat="item in sItem | limitTo : productLimit">
         <!-- {{item}} -->
           <a href="#"><img ng-src="{{item.image}}" class="img-responsive"></a>
           <span>{{item.name}}</span>
