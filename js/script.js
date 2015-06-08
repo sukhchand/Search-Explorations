@@ -1,6 +1,6 @@
 var app = angular.module("serachPOC", []);
 
-app.controller("search", function($scope,searchService) {
+app.controller("search", function($scope,searchService,$window) {
 
 	$scope.searchRes = {};
 	$scope.resLen = 0;
@@ -35,6 +35,20 @@ app.controller("search", function($scope,searchService) {
     $scope.searchProductByQ = function(cat){
         alert(cat);
     };
+
+    $scope.win = {
+        h: 0,
+        w: 0
+    };
+    var win = angular.element($window);
+    var init = function(){
+        win.bind('resize',function(){
+            $scope.win.h = window.innerHeight;
+            $scope.win.w = window.innerWidth;
+            $scope.$apply();
+        });
+    };
+    init();
 });
 
 app.service('searchService',function($http){
@@ -66,6 +80,36 @@ app.filter('myLimitTo', [function(){
         return ret;
     };
 }]);
+
+// app.directive('resize', function ($window) {
+//     return function (scope, element, attr) {
+
+//         var w = angular.element($window);
+//         scope.$watch(function () {
+//             return {
+//                 'h': window.innerHeight, 
+//                 'w': window.innerWidth
+//             };
+//         }, function (newValue, oldValue) {
+//             console.log(newValue, oldValue);
+//             scope.windowHeight = newValue.h;
+//             scope.windowWidth = newValue.w;
+
+//             scope.resizeWithOffset = function (offsetH) {
+//                 scope.$eval(attr.notifier);
+//                 return { 
+//                     'height': (newValue.h - offsetH) + 'px'                    
+//                 };
+//             };
+
+//         }, true);
+
+//         w.bind('resize', function () {
+//             scope.$apply();
+//         });
+//     }
+// });
+
 
 $( document ).ready(function() {
     $(".dropdown").hover(            
