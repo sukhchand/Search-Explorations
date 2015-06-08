@@ -138,7 +138,7 @@
       <h4>PRODUCTS <span>{{searchRes.data.products.length}} results found</span></h4>
       <div class="products_div" ng-repeat="sItem in searchRes.data.products | myLimitTo: 2">
        <!--  {{sItem}} -->
-        <div class="prod col-lg-3 col-md-3 col-sm-6 col-xs-6" ng-repeat="item in sItem | limitTo : productLimit">
+        <div class="prod col-lg-3 col-md-3 col-sm-3 col-xs-6" ng-repeat="item in sItem | limitTo : productLimit">
         <!-- {{item}} -->
           <a href="#"><img ng-src="{{item.image}}" class="img-responsive"></a>
           <span>{{item.name}}</span>

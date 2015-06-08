@@ -40,7 +40,7 @@ app.controller("search", function($scope,searchService) {
 app.service('searchService',function($http){
 	this.getSearchResult = function(param,success){
 		//$http.get('http://api.backcountry.com/v1/suggestions?q='+param+'&site=bcs')
-		$http.get('http://192.168.100.18/search-explorations/search.php?q='+param+'&site=bcs')
+		$http.get('http://localhost/search-explorations/search.php?q='+param+'&site=bcs')
     	.success(success);
 	};	
 });

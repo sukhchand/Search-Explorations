@@ -127,6 +127,7 @@ select.shop_by_submenu {
 	background-color: #fff;
 	display: inline-block;
 	width: 100%;
+	border: 1px solid #ccc;
 	/*display: none;*/
 }
 .search_popup:before{
@@ -206,12 +207,21 @@ select.shop_by_submenu {
 .products_selected{
 	display: none;
 }
-.prod.col-lg-3.ng-scope{
+.prod{
 	/*height: 360px;*/
+	border:1px solid #fff;
+	transition: 0.5s all;
+}
+.prod:hover{
+	/*height: 360px;*/
+	border:1px solid #000;
 }
 .prod:nth-child(4n+1) {
     clear: both;
 }
 .block{
 	display: block;
+}
+.secondary_navigation_div .shop_by select{
+	font-size: 14px;
 }

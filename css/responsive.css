@@ -26,7 +26,24 @@
         width: 100% /* Full width search box for mobile devices */
     }
     .secondary-nav .search_field{
-    	width: 84%;
+    	width: 83%;
+    }
+    .popular_searches ul li a{
+    	font-size: 14px;
+    	padding: 5px 15px;
+    }
+    .popular_searches h4{
+    	font-size: 16px;
+    	margin-left: 15px;
+    }
+    .prod{
+    	height: 220px;
+    }
+    .prod img{
+    	width: 80%;
+    }
+    .popular_searches{
+    	display: none;
     }
 }
 @media(max-width: 667px) {
